@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="50.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.HeaderController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <TextField fx:id="searchtext" layoutX="14.0" layoutY="10.0" prefHeight="31.0" prefWidth="202.0" promptText="Search" />
+      <Button layoutX="226.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#search" prefHeight="31.0" prefWidth="77.0" text="Search" />
+      <Label fx:id="email" layoutX="370" layoutY="15" text="" onMouseClicked="#logoutAppear" />
+      <Button fx:id="loginbutton" layoutX="409.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="31.0" prefWidth="77.0" text="Login" />
+      <Button fx:id="logoutbutton" layoutX="409.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="31.0" prefWidth="77.0" text="Logout" opacity="0" />
+
+   </children>
+</AnchorPane>
